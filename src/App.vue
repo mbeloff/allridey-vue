@@ -12,7 +12,8 @@
             myData: $store.state.global[i]
           }
         }"
-      >{{ region.name }} </router-link>
+        >{{ region.name }}
+      </router-link>
     </div>
     <router-view v-bind:global="$store.state.global" />
   </div>
