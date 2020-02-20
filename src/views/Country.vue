@@ -1,22 +1,92 @@
 <template>
-  <div>
+  <div class="container">
     <h1>{{ regionData.name }}</h1>
-    <div class="container" v-for="(type, i) in regionData.type" :key="i">
-      <h2 class="py-4">{{ type.name }}</h2>
-      <div
-        class="col-12 text-left"
-        v-for="(section, i) in type.section"
-        :key="i"
-      >
-        <h5 class="text-left blue-text my-2">{{ section.heading }}</h5>
-        <div class="col-12" v-for="(prop, i) in section.data" :key="i">
-          <div class="row" style="line-height: 1.2">
-            <div class="col-6">{{ prop[0] }}</div>
-            <div class="col-6">{{ prop[1] }}</div>
+    <b-card no-body class="z-depth-0 mb-4">
+      <b-tabs pills fill card content-class="mt-3">
+        <b-tab
+          class="p-2"
+          v-for="(type, i) in regionData.type"
+          :key="i"
+          :title="type.name"
+        >
+          <h2 class="my-3 text-left font-weight-bold">You Take</h2>
+          <div class="col-12 text-left p-0">
+            <div class="col-12 p-0">
+              <div class="row border-bottom no-gutters" style="line-height: 1.4">
+                <div class="col-6">Daily Rate</div>
+                <div class="col-6">You Set the Amount</div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
+          <h2 class="my-3 text-left font-weight-bold mt-4">We Take</h2>
+          <div
+            class="col-12 text-left my-2 p-0"
+            v-for="(section, i) in type.section"
+            :key="i"
+          >
+            <h6 class="text-left blue-text my-2 font-weight-bold">
+              {{ section.heading }}
+            </h6>
+            <div class="col-12 p-0" v-for="(prop, i) in section.data" :key="i">
+              <div class="row border-bottom no-gutters" style="line-height: 1.4">
+                <div class="col-6">{{ prop[0] }}</div>
+                <div class="col-6">{{ prop[1] }}</div>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="my-3 text-left font-weight-bold">Vehicles</h2>
+          <div class="display">
+            <a
+              :href="model.link"
+              class="display-item"
+              v-for="(model, i) in type.models"
+              :key="i"
+            >
+              <img class="img-fluid" :src="model.img" alt="" />
+              <span class="text-left"
+                >{{ model.name }}</span
+              >
+            </a>
+          </div>
+
+          <div class="container-fluid grey lighten-4 text-left">
+            <div class="row mt-5">
+              <div
+                class="col-12 col-md-6 mr-auto text-muted d-flex flex-center flex-column py-4"
+              >
+                <h3>Terms and Conditions</h3>
+                <h6>
+                  Please note that the full terms of our Vehicle Rental
+                  Agreement will apply to the hire of any of our vehicles, and
+                  will prevail in the case of any inconsistency with any
+                  summaries provided.
+                </h6>
+                <div class="col-12">
+                  <a class="grey-text" :href="regionData.policies">
+                    <span
+                      class="fas fa-file-pdf mr-2"
+                      aria-hidden="true"
+                    ></span>
+                    Summary of Policies</a
+                  ><br />
+                  <a class="grey-text" :href="regionData.vra">
+                    <span
+                      class="fas fa-file-pdf mr-2"
+                      aria-hidden="true"
+                    ></span>
+                    Vehicle Rental Agreement</a
+                  >
+                </div>
+              </div>
+              <div class="col-12 col-md-6 elegant-color rounded">
+                <img :src="regionData.map" alt="" />
+              </div>
+            </div>
+          </div>
+        </b-tab>
+      </b-tabs>
+    </b-card>
   </div>
 </template>
 
@@ -34,4 +104,18 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.display {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 0.1rem;
+}
+.display-item {
+  /* box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.356); */
+  overflow: hidden;
+  transition: transform 200ms ease-out;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+</style>
