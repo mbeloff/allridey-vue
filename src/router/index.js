@@ -11,6 +11,10 @@ const routes = [
     component: Home
   },
   {
+    path: '/agents',
+    redirect: '/'
+  },
+  {
     path: '/:country',
     name: 'Country',
     props: true,

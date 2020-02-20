@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>{{ regionData.name }}</h1>
+    <!-- <h1>{{ regionData.name }}</h1> -->
     <b-card no-body class="z-depth-0 mb-4">
       <b-tabs pills fill card content-class="mt-3">
         <b-tab
@@ -11,8 +11,11 @@
         >
           <h2 class="my-3 text-left font-weight-bold">You Take</h2>
           <div class="col-12 text-left p-0">
-            <div class="col-12 p-0">
-              <div class="row border-bottom no-gutters" style="line-height: 1.4">
+            <div class="col-12 p-0 props">
+              <div
+                class="row border-bottom no-gutters"
+                style="line-height: 1.4"
+              >
                 <div class="col-6">Daily Rate</div>
                 <div class="col-6">You Set the Amount</div>
               </div>
@@ -27,8 +30,15 @@
             <h6 class="text-left blue-text my-2 font-weight-bold">
               {{ section.heading }}
             </h6>
-            <div class="col-12 p-0" v-for="(prop, i) in section.data" :key="i">
-              <div class="row border-bottom no-gutters" style="line-height: 1.4">
+            <div
+              class="col-12 p-0 props"
+              v-for="(prop, i) in section.data"
+              :key="i"
+            >
+              <div
+                class="row border-bottom no-gutters"
+                style="line-height: 1.4"
+              >
                 <div class="col-6">{{ prop[0] }}</div>
                 <div class="col-6">{{ prop[1] }}</div>
               </div>
@@ -44,9 +54,7 @@
               :key="i"
             >
               <img class="img-fluid" :src="model.img" alt="" />
-              <span class="text-left"
-                >{{ model.name }}</span
-              >
+              <span class="text-left small">{{ model.name }}</span>
             </a>
           </div>
 
@@ -117,5 +125,9 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.props {
+  font-size: 0.9rem;
 }
 </style>

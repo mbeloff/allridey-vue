@@ -27,7 +27,7 @@ export default new Vuex.Store({
               {
                 heading: 'Accomodation: January through October',
                 data: [
-                  ['Standard Car', '$0/day'],
+                  ['Standard Car no accom', '$0/day'],
                   ['Car with Roof Tent', '$15/day'],
                   ['Camper with Accom for 2', '$25/day'],
                   ['Camper with Accom for 3', '$35/day'],
@@ -83,7 +83,7 @@ export default new Vuex.Store({
             ],
             models: [
               {
-                name: 'Standard Car',
+                name: 'Standard Car no accom',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/All-Ridey/all-ridey-car',
                 accom: '0',
@@ -205,7 +205,7 @@ export default new Vuex.Store({
             ],
             models: [
               {
-                name: 'Standard 4WD',
+                name: 'Standard 4WD no accom',
                 link: '',
                 accom: '0',
                 img:
@@ -267,7 +267,7 @@ export default new Vuex.Store({
               {
                 heading: 'Accomodation: January through October',
                 data: [
-                  ['Standard Car', '$0/day'],
+                  ['Standard Car no accom', '$0/day'],
                   ['Camper with Accom for 2', '$25/day']
                 ]
               },
@@ -302,7 +302,7 @@ export default new Vuex.Store({
             ],
             models: [
               {
-                name: 'Standard Car',
+                name: 'Standard Car no accom',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/New-Zealand/All-Ridey/all-ridey-car',
                 accom: '0',
@@ -337,7 +337,7 @@ export default new Vuex.Store({
                 ]
               },
               {
-                heading: 'Accomodation: JUne 15 through October',
+                heading: 'Accomodation: June 15 through October',
                 data: [
                   ['Premium 4WD (no accom)', '$55'],
                   ['Premium 4WD with accom for 2-5', '$55 +$0.10/km fuel levy']
