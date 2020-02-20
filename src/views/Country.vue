@@ -23,13 +23,12 @@
           <div class="col-12 text-left p-0 pl-3">
             <div class="col-12 p-0 props">
               <h6 class="text-left blue-text my-2 font-weight-bold">
-              Daily Rate
-            </h6>
+                Daily Rate
+              </h6>
               <div
                 class="row border-bottom no-gutters"
                 style="line-height: 1.4"
               >
-              
                 <div class="col-6">Daily Rate</div>
                 <div class="col-6">Set by agent</div>
               </div>

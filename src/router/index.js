@@ -10,10 +10,7 @@ const routes = [
     name: 'Home',
     component: Home
   },
-  {
-    path: '/agents',
-    redirect: '/'
-  },
+  { path: '/agents', component: Home, alias: '/' },
   {
     path: '/:country',
     name: 'Country',
