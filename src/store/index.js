@@ -31,7 +31,7 @@ export default new Vuex.Store({
                   ['Car with Roof Tent', '$15/day', 'n'],
                   ['Camper with Accom for 2', '$25/day', 'n'],
                   ['Camper with Accom for 3', '$35/day', 'n'],
-                  ['Camper with Accom for 5', '$45/day', 'n'],
+                  ['Camper with Accom for 5', '$45/day', 'n']
                 ]
               },
               {
@@ -417,10 +417,34 @@ export default new Vuex.Store({
             ]
           }
         ]
-      }
+      },
       // {
       //   name: 'South Africa',
-      //   urlname: 'southafrica'
+      //   urlname: 'southafrica',
+      //   map:
+      //     'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1582169131/maps/blue-map-nz-zones.svg',
+      //   policies:
+      //     'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1580685724/cv/cv-nz-rental-policies-13-01-20.pdf',
+      //   vra:
+      //     'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1580685723/cv/cv-nz-rental-agreement-23-5-19.pdf',
+      //   type: [
+      //     {
+      //       name: '2WD',
+      //       section: [
+      //         {
+      //           heading: 'Damage Cover',
+      //           data: [['Damage Cover', '$30 Manual / $35 Auto']]
+      //         },
+      //         {
+      //           heading: 'Accomodation: January through October',
+      //           data: [
+      //             ['Standard Car no accom', '$0/day', 'n'],
+      //             ['Camper with Accom for 2', '$25/day', 'n']
+      //           ]
+      //         }
+      //       ]
+      //     }
+      //   ]
       // }
     ]
   },
