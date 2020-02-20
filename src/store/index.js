@@ -27,11 +27,11 @@ export default new Vuex.Store({
               {
                 heading: 'Accomodation: January through October',
                 data: [
-                  ['Standard Car no accom', '$0/day'],
-                  ['Car with Roof Tent', '$15/day'],
-                  ['Camper with Accom for 2', '$25/day'],
-                  ['Camper with Accom for 3', '$35/day'],
-                  ['Camper with Accom for 5', '$45/day']
+                  ['Standard Car no accom', '$0/day', 'n'],
+                  ['Car with Roof Tent', '$15/day', 'n'],
+                  ['Camper with Accom for 2', '$25/day', 'n'],
+                  ['Camper with Accom for 3', '$35/day', 'n'],
+                  ['Camper with Accom for 5', '$45/day', 'n'],
                 ]
               },
               {
@@ -84,6 +84,7 @@ export default new Vuex.Store({
             models: [
               {
                 name: 'Standard Car no accom',
+                number: '1',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/All-Ridey/all-ridey-car',
                 accom: '0',
@@ -92,6 +93,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Car with Roof Tent',
+                number: '2',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Bondi/compact-3-sleeper',
                 accom: '2-3',
@@ -100,6 +102,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Camper w/ 2 accom auto',
+                number: '3',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Aventus/aventus-2-Berth-a',
                 accom: '2-3',
@@ -108,6 +111,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Camper w/ 2 accom manual',
+                number: '3',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Aventus/aventus-2-Berth-m',
                 accom: '2-3',
@@ -116,6 +120,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Camper w/ 2 or 3 accom',
+                number: '3/4',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Mystery-Machine',
                 accom: '2-3',
@@ -124,6 +129,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Camper w/ 5 accom',
+                number: '5',
                 link: '',
                 accom: '2-3',
                 img:
@@ -133,6 +139,8 @@ export default new Vuex.Store({
           },
           {
             name: '4WD',
+            note:
+              'Please note: for all AWD/4WD hires, full payment must be made within 7 days of making a booking',
             section: [
               {
                 heading: 'Damage Cover',
@@ -141,21 +149,21 @@ export default new Vuex.Store({
               {
                 heading: 'Accomodation: January through June 15',
                 data: [
-                  ['Standard 4WD (no accom)', '$0/day'],
-                  ['AWD with accom for 5', '$45/day'],
-                  ['4WD with accom for 2', '$45/day'],
-                  ['Premium 4WD with accom for 2-5', '$75/day'],
-                  ['Premium 4WD with accom for 2', '$95/day']
+                  ['Standard 4WD (no accom)', '$0/day', 'n'],
+                  ['AWD with accom for 5', '$45/day', 'n'],
+                  ['4WD with accom for 2', '$45/day', 'n'],
+                  ['Premium 4WD with accom for 2-5', '$75/day', 'n'],
+                  ['Premium 4WD with accom for 2', '$95/day', 'n']
                 ]
               },
               {
                 heading: 'Accomodation: JUne 15 through October',
                 data: [
-                  ['Standard 4WD (no accom)', '$25/day'],
-                  ['AWD with accom for 5', '$95/day'],
-                  ['4WD with accom for 2', '$85/day'],
-                  ['Premium 4WD with accom for 2-5', '$140/day'],
-                  ['Premium 4WD with accom for 2', '$160/day']
+                  ['Standard 4WD (no accom)', '$25/day', 'n'],
+                  ['AWD with accom for 5', '$95/day', 'n'],
+                  ['4WD with accom for 2', '$85/day', 'n'],
+                  ['Premium 4WD with accom for 2-5', '$140/day', 'n'],
+                  ['Premium 4WD with accom for 2', '$160/day', 'n']
                 ]
               },
               {
@@ -206,6 +214,7 @@ export default new Vuex.Store({
             models: [
               {
                 name: 'Standard 4WD no accom',
+                number: '1',
                 link: '',
                 accom: '0',
                 img:
@@ -213,6 +222,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'AWD w/ accom for 5',
+                number: '2',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Bondi/AWD-5-sleeper',
                 accom: '0',
@@ -221,6 +231,7 @@ export default new Vuex.Store({
               },
               {
                 name: '4WD w/ accom for 2',
+                number: '3',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Armadillo/armadillo-2-Sleeper',
                 accom: '2',
@@ -229,6 +240,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Premium 4WD w/ accom for 2-5',
+                number: '4',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Grip-4WD/grip-2-5-Berth',
                 accom: '2-5',
@@ -237,6 +249,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Premium 4WD w/ accom for 2',
+                number: '5',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Armadillo/armadillo-fj-2-sleeper',
                 accom: '2',
@@ -267,8 +280,8 @@ export default new Vuex.Store({
               {
                 heading: 'Accomodation: January through October',
                 data: [
-                  ['Standard Car no accom', '$0/day'],
-                  ['Camper with Accom for 2', '$25/day']
+                  ['Standard Car no accom', '$0/day', 'n'],
+                  ['Camper with Accom for 2', '$25/day', 'n']
                 ]
               },
               {
@@ -303,6 +316,7 @@ export default new Vuex.Store({
             models: [
               {
                 name: 'Standard Car no accom',
+                number: '1',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/New-Zealand/All-Ridey/all-ridey-car',
                 accom: '0',
@@ -311,6 +325,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Camper w/ 2 accom',
+                number: '2',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/New-Zealand/Aventus/aventus-2-berth',
                 accom: '2',
@@ -321,6 +336,8 @@ export default new Vuex.Store({
           },
           {
             name: '4WD',
+            note:
+              'Please note: for all AWD/4WD hires, full payment must be made within 7 days of making a booking',
             section: [
               {
                 heading: 'Damage Cover',
@@ -329,18 +346,23 @@ export default new Vuex.Store({
               {
                 heading: 'Accomodation: January through June 15',
                 data: [
-                  ['Premium 4WD (no accom)', '$35/day'],
+                  ['Premium 4WD (no accom)', '$35/day', 'n'],
                   [
                     'Premium 4WD with accom for 2-5',
-                    '$55/day +$0.10/km fuel levy'
+                    '$55/day +$0.10/km fuel levy',
+                    'n'
                   ]
                 ]
               },
               {
                 heading: 'Accomodation: June 15 through October',
                 data: [
-                  ['Premium 4WD (no accom)', '$55'],
-                  ['Premium 4WD with accom for 2-5', '$55 +$0.10/km fuel levy']
+                  ['Premium 4WD (no accom)', '$55', 'n'],
+                  [
+                    'Premium 4WD with accom for 2-5',
+                    '$55 +$0.10/km fuel levy',
+                    'n'
+                  ]
                 ]
               },
               {
@@ -376,6 +398,7 @@ export default new Vuex.Store({
             models: [
               {
                 name: 'Premium 4WD no accom Queenstown Only',
+                number: '1',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/New-Zealand/Armadillo/jeep',
                 accom: '0',
@@ -384,6 +407,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Premium 4WD w/ accom for 2-5',
+                number: '2',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/New-Zealand/Grip-4WD/grip-2-5-Berth',
                 accom: '2-5',

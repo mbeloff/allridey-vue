@@ -1,6 +1,15 @@
 <template>
   <div class="container">
-    <!-- <h1>{{ regionData.name }}</h1> -->
+    <div class="col-12 text-left">
+      <h2>
+        All Ridey Car and Camper Hire <br />
+        Rates and Fees Information for Agents
+      </h2>
+      <h5 class="blue-text mb-5">
+        Hires charged by 24 hour periods. Not calendar days
+      </h5>
+      <!-- <hr> -->
+    </div>
     <b-card no-body class="z-depth-0 mb-4">
       <b-tabs pills fill card content-class="mt-3">
         <b-tab
@@ -9,6 +18,7 @@
           :key="i"
           :title="type.name"
         >
+          <p class="text-center text-muted">{{ type.note }}</p>
           <h2 class="my-3 text-left font-weight-bold">You Take</h2>
           <div class="col-12 text-left p-0">
             <div class="col-12 p-0 props">
@@ -23,7 +33,7 @@
           </div>
           <h2 class="my-3 text-left font-weight-bold mt-4">We Take</h2>
           <div
-            class="col-12 text-left my-2 p-0"
+            class="col-12 text-left my-2 p-0 pl-3"
             v-for="(section, i) in type.section"
             :key="i"
           >
@@ -39,7 +49,16 @@
                 class="row border-bottom no-gutters"
                 style="line-height: 1.4"
               >
-                <div class="col-6">{{ prop[0] }}</div>
+                <div class="col-6">
+                  <div
+                    v-if="prop[2]"
+                    class="numberCircle"
+                    style="transform: scale(0.75); left: -1.75rem; top: -.25rem"
+                  >
+                    {{ i + 1 }}
+                  </div>
+                  {{ prop[0] }}
+                </div>
                 <div class="col-6">{{ prop[1] }}</div>
               </div>
             </div>
@@ -53,6 +72,7 @@
               v-for="(model, i) in type.models"
               :key="i"
             >
+              <div class="numberCircle">{{ model.number }}</div>
               <img class="img-fluid" :src="model.img" alt="" />
               <span class="text-left small">{{ model.name }}</span>
             </a>
@@ -129,5 +149,18 @@ export default {
 
 .props {
   font-size: 0.9rem;
+}
+
+.numberCircle {
+  position: absolute;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: rgb(46, 154, 255);
+  border: 2px solid rgb(62, 131, 233);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 5px;
+  font: 15px Arial, sans-serif;
 }
 </style>
