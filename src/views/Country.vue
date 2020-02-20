@@ -20,7 +20,7 @@
         >
           <p class="text-center text-muted">{{ type.note }}</p>
           <h2 class="my-3 text-left font-weight-bold">You Take</h2>
-          <div class="col-12 text-left p-0">
+          <div class="col-12 text-left p-0 pl-3">
             <div class="col-12 p-0 props">
               <div
                 class="row border-bottom no-gutters"
