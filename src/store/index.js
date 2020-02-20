@@ -36,7 +36,7 @@ export default new Vuex.Store({
               },
               {
                 heading: 'Accomodation Variations',
-                data: [['Hobart', '+$10']]
+                data: [['Hobart', '+$10/day']]
               },
               {
                 heading: 'Kilometres',
@@ -168,7 +168,7 @@ export default new Vuex.Store({
               },
               {
                 heading: 'Accomodation Variations',
-                data: [['Hobart', '+$10']]
+                data: [['Hobart', '+$10/day']]
               },
               {
                 heading: 'Kilometres',
