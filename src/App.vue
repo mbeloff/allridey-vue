@@ -1,10 +1,20 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link
+        v-for="(region, i) in $store.state.global"
+        :key="i"
+        :to="{
+          name: 'Country',
+          params: {
+            country: region.urlname,
+            regionIndex: i,
+            myData: $store.state.global[i]
+          }
+        }"
+      >{{ region.name }} </router-link>
     </div>
-    <router-view />
+    <router-view v-bind:global="$store.state.global" />
   </div>
 </template>
 
