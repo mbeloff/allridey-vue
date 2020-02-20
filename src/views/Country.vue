@@ -19,19 +19,23 @@
           :title="type.name"
         >
           <p class="text-center text-muted">{{ type.note }}</p>
-          <h2 class="my-3 text-left font-weight-bold">You Take</h2>
+          <!-- <h2 class="my-3 text-left font-weight-bold">You Take</h2> -->
           <div class="col-12 text-left p-0 pl-3">
             <div class="col-12 p-0 props">
+              <h6 class="text-left blue-text my-2 font-weight-bold">
+              Daily Rate
+            </h6>
               <div
                 class="row border-bottom no-gutters"
                 style="line-height: 1.4"
               >
+              
                 <div class="col-6">Daily Rate</div>
-                <div class="col-6">You Set the Amount</div>
+                <div class="col-6">Set by agent</div>
               </div>
             </div>
           </div>
-          <h2 class="my-3 text-left font-weight-bold mt-4">We Take</h2>
+          <!-- <h2 class="my-3 text-left font-weight-bold mt-4">We Take</h2> -->
           <div
             class="col-12 text-left my-2 p-0 pl-3"
             v-for="(section, i) in type.section"
