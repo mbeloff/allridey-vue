@@ -1,46 +1,39 @@
 <template>
-  <div class="container">
+  <div class="container p-0">
     <div class="col-12 text-left">
       <h2>
-        All Ridey Car and Camper Hire <br />
-        Rates and Fees Information for Agents
+        All Ridey Car and Camper Hire
+        <br />Rates and Fees Information for Agents
       </h2>
-      <h5 class=" -text mb-5">
+      <h5 class="-text mb-5">
         Hires charged by 24 hour periods. Not calendar days
       </h5>
       <!-- <hr> -->
     </div>
     <b-card no-body class="z-depth-0 mb-4">
-      <b-tabs pills fill card content-class="mt-3">
+      <b-tabs pills fill card>
         <b-tab
-          class="p-2"
+          class="p-2 bwhite"
           v-for="(type, i) in regionData.type"
           :key="i"
           :title="type.name"
         >
           <p class="text-center text-muted">{{ type.note }}</p>
           <!-- <h2 class="my-3 text-left font-weight-bold">You Take</h2> -->
-          <div class="col-12 text-left p-0 pl-3">
-            <div class="col-12 p-0 props">
-              <h6 class="text-left my-2 font-weight-bold">
-                Daily Rate
-              </h6>
-              <div
-                class="row border-bottom no-gutters"
-                style="line-height: 1.4"
-              >
-                <div class="col-6">Daily Rate</div>
-                <div class="col-6">Set by agent</div>
-              </div>
+          <div class="col-12 text-left p-0 pl-3 card z-depth-0 grey lighten-4">
+            <h6 class="text-left my-2 font-weight-bold">Daily Rate</h6>
+            <div class="row border-bottom no-gutters" style="line-height: 1.4">
+              <div class="col-6">Daily Rate</div>
+              <div class="col-6">Set by agent</div>
             </div>
           </div>
           <!-- <h2 class="my-3 text-left font-weight-bold mt-4">We Take</h2> -->
           <div
-            class="col-12 text-left my-2 p-0 pl-3"
+            class="col-12 text-left my-2 p-1 pl-3 card z-depth-0 grey lighten-4"
             v-for="(section, i) in type.section"
             :key="i"
           >
-            <h6 class="text-left  -text my-2 font-weight-bold">
+            <h6 class="text-left my-2 font-weight-bold">
               {{ section.heading }}
             </h6>
             <div
@@ -66,23 +59,26 @@
               </div>
             </div>
           </div>
-
-          <h2 class="my-3 text-left font-weight-bold">Vehicles</h2>
-          <div class="display">
-            <a
-              :href="model.link"
-              class="display-item"
-              v-for="(model, i) in type.models"
-              :key="i"
-            >
-              <div class="numberCircle">{{ model.number }}</div>
-              <img class="img-fluid" :src="model.img" alt="" />
-              <span class="text-left small">{{ model.name }}</span>
-            </a>
+          <div class="container white card z-depth-0">
+            <h2 class="my-3 text-left font-weight-bold">Vehicles</h2>
+            <div class="display">
+              <a
+                :href="model.link"
+                class="display-item"
+                v-for="(model, i) in type.models"
+                :key="i"
+              >
+                <div class="numberCircle">{{ model.number }}</div>
+                <img class="img-fluid" :src="model.img" alt />
+                <span class="text-left small">{{ model.name }}</span>
+              </a>
+            </div>
           </div>
 
-          <div class="container-fluid grey lighten-4 text-left">
-            <div class="row mt-5">
+          <div
+            class="container-fluid grey lighten-4 text-left card z-depth-0 mt-2"
+          >
+            <div class="row">
               <div
                 class="col-12 col-md-6 mr-auto text-muted d-flex flex-center flex-column py-4"
               >
@@ -99,19 +95,20 @@
                       class="fas fa-file-pdf mr-2"
                       aria-hidden="true"
                     ></span>
-                    Summary of Policies</a
-                  ><br />
+                    Summary of Policies
+                  </a>
+                  <br />
                   <a class="grey-text" :href="regionData.vra">
                     <span
                       class="fas fa-file-pdf mr-2"
                       aria-hidden="true"
                     ></span>
-                    Vehicle Rental Agreement</a
-                  >
+                    Vehicle Rental Agreement
+                  </a>
                 </div>
               </div>
               <div class="col-12 col-md-6 elegant-color rounded">
-                <img :src="regionData.map" alt="" />
+                <img :src="regionData.map" alt />
               </div>
             </div>
           </div>
