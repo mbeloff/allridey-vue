@@ -10,9 +10,11 @@
       <div class="d-flex flex-column float-right ml-auto">
         <p class="blue-text font-weight-bold h5 mb-1">
           <span class="fas fa-phone-rotary"></span> 1800 24 68 69
-        </p>
-        <p class="blue-text font-weight-bold h4 small text-right mb-0">
-          NZ: 0800 24 68 70
+          <span
+            class="ml-4 blue-text font-weight-bold h4 small text-right mb-0"
+          >
+            NZ: 0800 24 68 70
+          </span>
         </p>
       </div>
     </div>
