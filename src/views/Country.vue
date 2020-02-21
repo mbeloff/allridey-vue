@@ -20,9 +20,12 @@
         >
           <p class="text-center text-muted">{{ type.note }}</p>
           <!-- <h2 class="my-3 text-left font-weight-bold">You Take</h2> -->
-          <div class="col-12 text-left p-0 pl-3 card z-depth-0 grey lighten-4">
+          <div class="col-12 text-left p-1 pl-3 card z-depth-0 grey lighten-4">
             <h6 class="text-left my-2 font-weight-bold">Daily Rate</h6>
-            <div class="row border-bottom no-gutters" style="line-height: 1.4">
+            <div
+              class="row white z-depth-0 props px-1 card d-flex flex-row no-gutters"
+              style="line-height: 1.4"
+            >
               <div class="col-6">Daily Rate</div>
               <div class="col-6">Set by agent</div>
             </div>
@@ -37,14 +40,11 @@
               {{ section.heading }}
             </h6>
             <div
-              class="col-12 p-0 props"
+              class="col-12 p-0 props white card z-depth-0"
               v-for="(prop, i) in section.data"
               :key="i"
             >
-              <div
-                class="row border-bottom no-gutters"
-                style="line-height: 1.4"
-              >
+              <div class="row no-gutters px-1" style="line-height: 1.4">
                 <div class="col-6">
                   <div
                     v-if="prop[2]"
