@@ -5,7 +5,7 @@
         All Ridey Car and Camper Hire <br />
         Rates and Fees Information for Agents
       </h2>
-      <h5 class="blue-text mb-5">
+      <h5 class=" -text mb-5">
         Hires charged by 24 hour periods. Not calendar days
       </h5>
       <!-- <hr> -->
@@ -22,7 +22,7 @@
           <!-- <h2 class="my-3 text-left font-weight-bold">You Take</h2> -->
           <div class="col-12 text-left p-0 pl-3">
             <div class="col-12 p-0 props">
-              <h6 class="text-left blue-text my-2 font-weight-bold">
+              <h6 class="text-left my-2 font-weight-bold">
                 Daily Rate
               </h6>
               <div
@@ -40,7 +40,7 @@
             v-for="(section, i) in type.section"
             :key="i"
           >
-            <h6 class="text-left blue-text my-2 font-weight-bold">
+            <h6 class="text-left  -text my-2 font-weight-bold">
               {{ section.heading }}
             </h6>
             <div

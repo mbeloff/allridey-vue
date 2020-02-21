@@ -193,8 +193,8 @@ export default new Vuex.Store({
               {
                 heading: 'Premium Location Fees',
                 data: [
-                  ['Exmouth, Shark Bay, Byron Bay', '$85'],
-                  ['Darwin, Hobart, ALice Springs, Exmouth', '$150'],
+                  ['Shark Bay, Byron Bay', '$85'],
+                  ['Darwin, Hobart, Alice Springs, Exmouth', '$150'],
                   ['Broome', '$400']
                 ]
               },
@@ -417,7 +417,7 @@ export default new Vuex.Store({
             ]
           }
         ]
-      },
+      }
       // {
       //   name: 'South Africa',
       //   urlname: 'southafrica',
