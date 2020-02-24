@@ -40,6 +40,12 @@
               {{ section.heading }}
             </h6>
             <div
+              class="col-12 col-md-8 col-lg-7 p-0 mb-1 pl-2 small note note-info"
+              v-if="section.note"
+            >
+              {{ section.note }}
+            </div>
+            <div
               class="col-12 p-0 props white border-bottom"
               v-for="(prop, i) in section.data"
               :key="i"

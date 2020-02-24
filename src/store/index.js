@@ -349,7 +349,7 @@ export default new Vuex.Store({
                   ['Premium 4WD (no accom)', '$35/day', 'n'],
                   [
                     'Premium 4WD with accom for 2-5',
-                    '$55/day +$0.10/km fuel levy',
+                    '$55/day +$0.20 per km',
                     'n'
                   ]
                 ]
@@ -357,10 +357,10 @@ export default new Vuex.Store({
               {
                 heading: 'Accomodation: June 15 through October',
                 data: [
-                  ['Premium 4WD (no accom)', '$55', 'n'],
+                  ['Premium 4WD (no accom)', '$55/day', 'n'],
                   [
                     'Premium 4WD with accom for 2-5',
-                    '$55 +$0.10/km fuel levy',
+                    '$55/day +$0.20 per km',
                     'n'
                   ]
                 ]
@@ -371,6 +371,8 @@ export default new Vuex.Store({
               },
               {
                 heading: 'Kilometres',
+                note:
+                  'please note: Due to the Diesel Road User Charge, the Premium 4WD with accom for 2-5 is always charged $0.20 per km for all kms to be used. No free kms included and no unlimited km package available',
                 data: [
                   ['Kilometre Allowance', '250km/day included'],
                   ['Extra Kilometres', '$0.20/km'],
