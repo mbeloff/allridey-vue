@@ -13,9 +13,9 @@ export default new Vuex.Store({
         map:
           'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1582169132/maps/blue-map-au-zones.svg',
         policies:
-          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1/cv/cv-au-rental-policies_20_01_20.pdf',
+          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1583199066/cv/docs/au_policies_0220.pdf',
         vra:
-          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1580685723/cv/cv-au-rental-agreement-23-5-19.pdf',
+          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1583199065/cv/docs/au_rental_agreement_0220.pdf',
         type: [
           {
             name: '2WD',
@@ -266,9 +266,9 @@ export default new Vuex.Store({
         map:
           'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1582169131/maps/blue-map-nz-zones.svg',
         policies:
-          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1580685724/cv/cv-nz-rental-policies-13-01-20.pdf',
+          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1583199078/cv/docs/NZPOLICIES0220.pdf',
         vra:
-          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1580685723/cv/cv-nz-rental-agreement-23-5-19.pdf',
+          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1583199078/cv/docs/NZVRA0220.pdf',
         type: [
           {
             name: '2WD',
