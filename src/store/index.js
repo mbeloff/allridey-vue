@@ -28,7 +28,7 @@ export default new Vuex.Store({
                 heading: 'Accomodation: January through October',
                 data: [
                   ['Standard Car no accom', '$0/day', 'n'],
-                  ['Car with Roof Tent', '$15/day', 'n'],
+                  // ['Car with Roof Tent', '$15/day', 'n'],
                   ['Camper with Accom for 2', '$25/day', 'n'],
                   ['Camper with Accom for 3', '$35/day', 'n'],
                   ['Camper with Accom for 5', '$45/day', 'n']
@@ -91,18 +91,18 @@ export default new Vuex.Store({
                 img:
                   'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1578014344/cv/allridey-i20.jpg'
               },
-              {
-                name: 'Car with Roof Tent',
-                number: '2',
-                link:
-                  'https://campervanvillage.netlify.com/Vehicles/Australia/Bondi/compact-3-sleeper',
-                accom: '2-3',
-                img:
-                  'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1578014345/cv/bondi-mini-3.jpg'
-              },
+              // {
+              //   name: 'Car with Roof Tent',
+              //   number: '2',
+              //   link:
+              //     'https://campervanvillage.netlify.com/Vehicles/Australia/Bondi/compact-3-sleeper',
+              //   accom: '2-3',
+              //   img:
+              //     'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1578014345/cv/bondi-mini-3.jpg'
+              // },
               {
                 name: 'Camper w/ 2 accom auto',
-                number: '3',
+                number: '2',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Aventus/aventus-2-Berth-a',
                 accom: '2-3',
@@ -111,7 +111,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Camper w/ 2 accom manual',
-                number: '3',
+                number: '2',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Aventus/aventus-2-Berth-m',
                 accom: '2-3',
@@ -120,7 +120,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Camper w/ 2 or 3 accom',
-                number: '3/4',
+                number: '2/3',
                 link:
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Mystery-Machine',
                 accom: '2-3',
@@ -129,7 +129,7 @@ export default new Vuex.Store({
               },
               {
                 name: 'Camper w/ 5 accom',
-                number: '5',
+                number: '4',
                 link: '',
                 accom: '2-3',
                 img:
