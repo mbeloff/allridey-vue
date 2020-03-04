@@ -28,7 +28,7 @@ export default new Vuex.Store({
                 heading: 'Accomodation: January through October',
                 data: [
                   ['Standard Car no accom', '$0/day', 'n'],
-                  ['Car with Roof Tent', '$15/day', 'n'],
+                  ['Car with Roof Tent (ending soon)', '$15/day', 'n'],
                   ['Camper with Accom for 2', '$25/day', 'n'],
                   ['Camper with Accom for 3', '$35/day', 'n'],
                   ['Camper with Accom for 5', '$45/day', 'n']
