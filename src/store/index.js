@@ -227,7 +227,7 @@ export default new Vuex.Store({
                   'https://campervanvillage.netlify.com/Vehicles/Australia/Bondi/AWD-5-sleeper',
                 accom: '0',
                 img:
-                  'https://res.cloudinary.com/dg5ybbkbh/image/upload/v2/cv/bondi-awd-5.jpg'
+                  'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1/cv/safari5.jpg'
               },
               {
                 name: '4WD w/ accom for 2',
