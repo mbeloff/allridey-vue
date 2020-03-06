@@ -157,7 +157,7 @@ export default new Vuex.Store({
                 ]
               },
               {
-                heading: 'Accomodation: JUne 15 through October',
+                heading: 'Accomodation: June 15 through October',
                 data: [
                   ['Standard 4WD (no accom)', '$25/day', 'n'],
                   ['AWD with accom for 5', '$95/day', 'n'],
