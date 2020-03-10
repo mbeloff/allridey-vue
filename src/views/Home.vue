@@ -49,7 +49,6 @@
 
 <script>
 // @ is an alias to /src
-
 export default {
   name: 'Home'
 }
@@ -58,7 +57,7 @@ export default {
 header {
   top: 0;
   width: 100%;
-  z-index: 1000;
+  /* z-index: 1000; */
   position: relative;
 }
 
@@ -67,11 +66,11 @@ header {
   background-size: 300%;
   background-position-x: 50%;
   top: 0;
-  position: absolute;
+  /* position: absolute; */
   /* z-index: 0; */
-  height: calc(100vh - 130px);
+  height: calc(100vh - 80px);
   /* max-height: 800px; */
-  padding-top: 100px;
+  /* padding-top: 80px; */
 }
 
 .header-img {

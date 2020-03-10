@@ -6,7 +6,8 @@
       crossorigin="anonymous"
       sameSite="none"
     ></script>
-    <div class="position-absolute numero mr-2 mt-2">
+    <Navbar></Navbar>
+    <!-- <div class="position-absolute numero mr-2 mt-2">
       <div class="d-flex flex-column float-right ml-auto">
         <p class="blue-text font-weight-bold h5 mb-1">
           <span class="fas fa-phone-rotary"></span> 1800 24 68 69
@@ -17,28 +18,17 @@
           </span>
         </p>
       </div>
-    </div>
-    <div class="container">
-      <div id="nav">
-        <router-link
-          class="btn btn-lg btn-rounded"
-          v-for="(region, i) in $store.state.global"
-          :key="i"
-          :to="{
-            name: 'Country',
-            params: {
-              country: region.urlname,
-              regionIndex: i,
-              myData: $store.state.global[i]
-            }
-          }"
-          >{{ region.name }}
-        </router-link>
-      </div>
-    </div>
+    </div> -->
     <router-view v-bind:global="$store.state.global" />
   </div>
 </template>
+<script>
+import Navbar from '@/components/Navbar.vue'
+
+export default {
+  components: { Navbar }
+}
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -48,19 +38,7 @@
   color: #2c3e50;
 }
 
-#nav {
-  position: relative;
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
 
-    &.router-link-exact-active {
-      color: #ffffff;
-      background: #007bff;
-    }
-  }
-}
 
 .numero {
   top: 0;

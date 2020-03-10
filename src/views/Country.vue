@@ -1,9 +1,9 @@
 <template>
-  <div class="container p-0">
+  <div class="container p-0 mt-5">
     <div class="col-12 text-left">
       <h2>
-        All Ridey Car and Camper Hire
-        <br />Rates and Fees Information for Agents
+        Allridey <span class="blue-text">{{ regionData.name }}</span> <br />
+        Car and Camper Hire Rates and Fees Information for Agents
       </h2>
       <h5 class="-text mb-5">
         Hires charged by 24 hour periods. Not calendar days
@@ -19,18 +19,16 @@
           :title="type.name"
         >
           <p class="text-center text-muted">{{ type.note }}</p>
-          <!-- <h2 class="my-3 text-left font-weight-bold">You Take</h2> -->
           <div class="col-12 text-left p-1 pl-3 z-depth-0 grey lighten-5">
             <h6 class="text-left my-2 font-weight-bold">Daily Rate</h6>
             <div
               class="row white z-depth-0 props px-1 border-bottom d-flex flex-row no-gutters"
               style="line-height: 1.4"
             >
-              <div class="col-6">Daily Rate</div>
-              <div class="col-6">Set by agent</div>
+              <div class="col-8 col-md-6">Daily Rate</div>
+              <div class="col-4 col-md-6">Set by agent</div>
             </div>
           </div>
-          <!-- <h2 class="my-3 text-left font-weight-bold mt-4">We Take</h2> -->
           <div
             class="col-12 text-left my-2 p-1 pl-3 grey lighten-5"
             v-for="(section, i) in type.section"
@@ -51,7 +49,7 @@
               :key="i"
             >
               <div class="row no-gutters px-1" style="line-height: 1.4">
-                <div class="col-6">
+                <div class="col-8 col-md-6">
                   <div
                     v-if="prop[2]"
                     class="numberCircle"
@@ -61,7 +59,7 @@
                   </div>
                   {{ prop[0] }}
                 </div>
-                <div class="col-6">{{ prop[1] }}</div>
+                <div class="col-4 col-md-6">{{ prop[1] }}</div>
               </div>
             </div>
           </div>
