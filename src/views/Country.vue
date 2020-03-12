@@ -72,7 +72,7 @@
                 v-for="(model, i) in type.models"
                 :key="i"
               >
-                <div class="numberCircle">{{ model.number }}</div>
+                <!-- <div class="numberCircle">{{ model.number }}</div> -->
                 <img class="img-fluid" :src="model.img" alt />
                 <span class="text-left small">{{ model.name }}</span>
               </a>

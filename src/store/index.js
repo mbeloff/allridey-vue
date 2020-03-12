@@ -24,19 +24,24 @@ export default new Vuex.Store({
                 heading: 'Damage Cover',
                 data: [['Damage Cover', '$30 Manual / $35 Auto']]
               },
+              // {
+              //   heading: 'Accomodation: January through October',
+              //   data: [
+              //     ['Standard Car no accom', '$0/day', 'n'],
+              //     ['Car with Roof Tent (ending soon)', '$15/day', 'n'],
+              //     ['Camper with Accom for 2', '$25/day', 'n'],
+              //     ['Camper with Accom for 3', '$35/day', 'n'],
+              //     ['Camper with Accom for 5', '$45/day', 'n']
+              //   ]
+              // },
+              // {
+              //   heading: 'Accomodation Variations',
+              //   data: [['Hobart', '+$10/day']]
+              // },
               {
-                heading: 'Accomodation: January through October',
-                data: [
-                  ['Standard Car no accom', '$0/day', 'n'],
-                  ['Car with Roof Tent (ending soon)', '$15/day', 'n'],
-                  ['Camper with Accom for 2', '$25/day', 'n'],
-                  ['Camper with Accom for 3', '$35/day', 'n'],
-                  ['Camper with Accom for 5', '$45/day', 'n']
-                ]
-              },
-              {
-                heading: 'Accomodation Variations',
-                data: [['Hobart', '+$10/day']]
+                heading: 'Daily Accomodation Fee',
+                note:
+                  'Request a Quote using the button up top to get up-to-date accommodation fees'
               },
               {
                 heading: 'Kilometres',
@@ -147,29 +152,34 @@ export default new Vuex.Store({
                 data: [['Damage Cover', '$55/day']]
               },
               {
-                heading: 'Accomodation: January through June 15',
-                data: [
-                  ['Standard 4WD (no accom)', '$0/day', 'n'],
-                  ['AWD with accom for 5', '$45/day', 'n'],
-                  ['4WD with accom for 2', '$45/day', 'n'],
-                  ['Premium 4WD with accom for 2-5', '$75/day', 'n'],
-                  ['Premium 4WD with accom for 2', '$95/day', 'n']
-                ]
+                heading: 'Daily Accomodation Fee',
+                note:
+                  'Request a Quote using the button up top to get up-to-date accommodation fees'
               },
-              {
-                heading: 'Accomodation: June 15 through October',
-                data: [
-                  ['Standard 4WD (no accom)', '$25/day', 'n'],
-                  ['AWD with accom for 5', '$95/day', 'n'],
-                  ['4WD with accom for 2', '$85/day', 'n'],
-                  ['Premium 4WD with accom for 2-5', '$140/day', 'n'],
-                  ['Premium 4WD with accom for 2', '$160/day', 'n']
-                ]
-              },
-              {
-                heading: 'Accomodation Variations',
-                data: [['Hobart', '+$10/day']]
-              },
+              // {
+              //   heading: 'Accomodation: January through June 15',
+              //   data: [
+              //     ['Standard 4WD (no accom)', '$0/day', 'n'],
+              //     ['AWD with accom for 5', '$45/day', 'n'],
+              //     ['4WD with accom for 2', '$45/day', 'n'],
+              //     ['Premium 4WD with accom for 2-5', '$75/day', 'n'],
+              //     ['Premium 4WD with accom for 2', '$95/day', 'n']
+              //   ]
+              // },
+              // {
+              //   heading: 'Accomodation: June 15 through October',
+              //   data: [
+              //     ['Standard 4WD (no accom)', '$25/day', 'n'],
+              //     ['AWD with accom for 5', '$95/day', 'n'],
+              //     ['4WD with accom for 2', '$85/day', 'n'],
+              //     ['Premium 4WD with accom for 2-5', '$140/day', 'n'],
+              //     ['Premium 4WD with accom for 2', '$160/day', 'n']
+              //   ]
+              // },
+              // {
+              //   heading: 'Accomodation Variations',
+              //   data: [['Hobart', '+$10/day']]
+              // },
               {
                 heading: 'Kilometres',
                 data: [
@@ -277,16 +287,21 @@ export default new Vuex.Store({
                 heading: 'Damage Cover',
                 data: [['Damage Cover', '$30 Manual / $35 Auto']]
               },
+              // {
+              //   heading: 'Accomodation: January through October',
+              //   data: [
+              //     ['Standard Car no accom', '$0/day', 'n'],
+              //     ['Camper with Accom for 2', '$25/day', 'n']
+              //   ]
+              // },
+              // {
+              //   heading: 'Accomodation Variations',
+              //   data: [['Auckland', '+$20/day']]
+              // },
               {
-                heading: 'Accomodation: January through October',
-                data: [
-                  ['Standard Car no accom', '$0/day', 'n'],
-                  ['Camper with Accom for 2', '$25/day', 'n']
-                ]
-              },
-              {
-                heading: 'Accomodation Variations',
-                data: [['Auckland', '+$20/day']]
+                heading: 'Daily Accomodation Fee',
+                note:
+                  'Request a Quote using the button up top to get up-to-date accommodation fees'
               },
               {
                 heading: 'Kilometres',
@@ -344,31 +359,36 @@ export default new Vuex.Store({
                 data: [['Damage Cover', '$55/day']]
               },
               {
-                heading: 'Accomodation: January through June 15',
-                data: [
-                  ['Premium 4WD (no accom)', '$35/day', 'n'],
-                  [
-                    'Premium 4WD with accom for 2-5',
-                    '$55/day +$0.20 per km',
-                    'n'
-                  ]
-                ]
+                heading: 'Daily Accomodation Fee',
+                note:
+                  'Request a Quote using the button up top to get up-to-date accommodation fees'
               },
-              {
-                heading: 'Accomodation: June 15 through October',
-                data: [
-                  ['Premium 4WD (no accom)', '$55/day', 'n'],
-                  [
-                    'Premium 4WD with accom for 2-5',
-                    '$55/day +$0.20 per km',
-                    'n'
-                  ]
-                ]
-              },
-              {
-                heading: 'Accomodation Variations',
-                data: [['Auckland', '+$20/day']]
-              },
+              // {
+              //   heading: 'Accomodation: January through June 15',
+              //   data: [
+              //     ['Premium 4WD (no accom)', '$35/day', 'n'],
+              //     [
+              //       'Premium 4WD with accom for 2-5',
+              //       '$55/day +$0.20 per km',
+              //       'n'
+              //     ]
+              //   ]
+              // },
+              // {
+              //   heading: 'Accomodation: June 15 through October',
+              //   data: [
+              //     ['Premium 4WD (no accom)', '$55/day', 'n'],
+              //     [
+              //       'Premium 4WD with accom for 2-5',
+              //       '$55/day +$0.20 per km',
+              //       'n'
+              //     ]
+              //   ]
+              // },
+              // {
+              //   heading: 'Accomodation Variations',
+              //   data: [['Auckland', '+$20/day']]
+              // },
               {
                 heading: 'Kilometres',
                 note:
