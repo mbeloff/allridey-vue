@@ -18,6 +18,21 @@
           :key="i"
           :title="type.name"
         >
+          <div class="container white card z-depth-0">
+            <h2 class="my-3 text-left font-weight-bold">Vehicles</h2>
+            <div class="display">
+              <a
+                :href="model.link ? model.link : null"
+                class="display-item"
+                v-for="(model, i) in type.models"
+                :key="i"
+              >
+                <!-- <div class="numberCircle">{{ model.number }}</div> -->
+                <img class="img-fluid" :src="model.img" alt />
+                <span class="text-left small">{{ model.name }}</span>
+              </a>
+            </div>
+          </div>
           <p class="text-center text-muted">{{ type.note }}</p>
           <div class="col-12 text-left p-1 pl-3 z-depth-0 grey lighten-5">
             <h6 class="text-left my-2 font-weight-bold">Daily Rate</h6>
@@ -61,21 +76,6 @@
                 </div>
                 <div class="col-4 col-md-6">{{ prop[1] }}</div>
               </div>
-            </div>
-          </div>
-          <div class="container white card z-depth-0">
-            <h2 class="my-3 text-left font-weight-bold">Vehicles</h2>
-            <div class="display">
-              <a
-                :href="model.link"
-                class="display-item"
-                v-for="(model, i) in type.models"
-                :key="i"
-              >
-                <!-- <div class="numberCircle">{{ model.number }}</div> -->
-                <img class="img-fluid" :src="model.img" alt />
-                <span class="text-left small">{{ model.name }}</span>
-              </a>
             </div>
           </div>
 

@@ -346,6 +346,20 @@ export default new Vuex.Store({
                 accom: '2',
                 img:
                   'https://res.cloudinary.com/dg5ybbkbh/image/upload/v2/cv/nz2berthplain.jpg'
+              },
+              {
+                name: '',
+                number: '',
+                link: '',
+                accom: '',
+                img: ''
+              },
+              {
+                name: '',
+                number: '',
+                link: '',
+                accom: '',
+                img: ''
               }
             ]
           },
@@ -435,6 +449,20 @@ export default new Vuex.Store({
                 accom: '2-5',
                 img:
                   'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1577937932/cv/nz-2-5.jpg'
+              },
+              {
+                name: '',
+                number: '',
+                link: '',
+                accom: '',
+                img: ''
+              },
+              {
+                name: '',
+                number: '',
+                link: '',
+                accom: '',
+                img: ''
               }
             ]
           }
