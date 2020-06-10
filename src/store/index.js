@@ -202,7 +202,8 @@ export default new Vuex.Store({
                 data: [
                   ['Shark Bay, Byron Bay', '$85'],
                   ['Hobart, Alice Springs', '$150'],
-                  ['Darwin, Broome, Exmouth', '$400']
+                  ['Darwin', '$200'],
+                  ['Broome, Exmouth', '$400']
                 ]
               },
               {
