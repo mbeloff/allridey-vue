@@ -67,7 +67,7 @@ export default new Vuex.Store({
               {
                 heading: 'Premium Location Fees',
                 data: [
-                  ['Shark Bay, Alice Springs, Byron Bay', '$85'],
+                  ['Shark Bay/Monkey Mia, Alice Springs, Byron Bay', '$85'],
                   ['Hobart', '$150'],
                   ['Darwin, Exmouth, Broome', '$200']
                 ]
@@ -193,9 +193,9 @@ export default new Vuex.Store({
               {
                 heading: 'One Way Fees',
                 data: [
-                  ['Airlie Beach or Byron Bay', '$300'],
+                  ['Airlie Beach & Byron Bay', '$300'],
                   ['Rest of Zone 1', '$150'],
-                  ['Exmouth, Alice Springs', '$1000'],
+                  ['Exmouth & Broome', '$1000'],
                   ['Rest of Zone 2', '$500']
                 ]
               },
