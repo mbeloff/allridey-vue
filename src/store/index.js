@@ -13,7 +13,7 @@ export default new Vuex.Store({
         map:
           'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1582169132/maps/blue-map-au-zones.svg',
         policies:
-          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1/cv/docs/au_policies_0220.pdf',
+          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1/cv/docs/au_allridey_policies_0620.pdf',
         vra:
           'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1/cv/docs/au_rental_agreement_0220.pdf',
         type: [
@@ -58,9 +58,10 @@ export default new Vuex.Store({
               {
                 heading: 'One Way Fees',
                 data: [
-                  ['Within Zone 1', '$150'],
-                  ['Within Zone 2', '$500'],
-                  ['Between Zone 1 & 2', '$500']
+                  ['Airlie Beach or Byron Bay', '$300'],
+                  ['Rest of Zone 1', '$150'],
+                  ['Exmouth, Alice Springs', '$1000'],
+                  ['Rest of Zone 2', '$500']
                 ]
               },
               {
@@ -192,9 +193,10 @@ export default new Vuex.Store({
               {
                 heading: 'One Way Fees',
                 data: [
-                  ['Within Zone 1', '$150'],
-                  ['Within Zone 2', '$500'],
-                  ['Between Zone 1 & 2', '$500']
+                  ['Airlie Beach or Byron Bay', '$300'],
+                  ['Rest of Zone 1', '$150'],
+                  ['Exmouth, Alice Springs', '$1000'],
+                  ['Rest of Zone 2', '$500']
                 ]
               },
               {
@@ -209,9 +211,9 @@ export default new Vuex.Store({
               {
                 heading: 'Bonds',
                 data: [
-                  ['With Credit Card', '$0'],
-                  ['No Credit Card', '$1000'],
-                  ['4WD/AWD Area of Use & Sand Bond', '$1000']
+                  ['With Credit Card', '$0*'],
+                  ['No Credit Card', '$2000'],
+                  ['4WD/AWD Area of Use & Sand Fee', '$1000']
                 ]
               },
               {
@@ -420,7 +422,7 @@ export default new Vuex.Store({
                 heading: 'Bonds',
                 data: [
                   ['With Credit Card', '$0'],
-                  ['No Credit Card', '$1000'],
+                  ['No Credit Card', '$2000'],
                   ['4WD/AWD Area of Use & Sand Bond', '$1000']
                 ]
               },

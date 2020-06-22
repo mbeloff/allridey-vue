@@ -94,14 +94,14 @@
                   summaries provided.
                 </h6>
                 <div class="col-12">
-                  <a class="grey-text" :href="regionData.policies">
+                  <!-- <a class="grey-text" :href="regionData.policies">
                     <span
                       class="fas fa-file-pdf mr-2"
                       aria-hidden="true"
                     ></span>
                     Summary of Policies
                   </a>
-                  <br />
+                  <br /> -->
                   <a class="grey-text" :href="regionData.vra">
                     <span
                       class="fas fa-file-pdf mr-2"
