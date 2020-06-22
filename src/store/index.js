@@ -75,7 +75,7 @@ export default new Vuex.Store({
               {
                 heading: 'Bonds',
                 data: [
-                  ['With Credit Card', '$0'],
+                  ['With Credit Card', '$0 (imprint only)'],
                   ['No Credit Card', '$1000']
                 ]
               },
@@ -211,7 +211,7 @@ export default new Vuex.Store({
               {
                 heading: 'Bonds',
                 data: [
-                  ['With Credit Card', '$0*'],
+                  ['With Credit Card', '$0* (imprint only)'],
                   ['No Credit Card', '$2000'],
                   ['4WD/AWD Area of Use & Sand Fee', '$1000']
                 ]
@@ -319,7 +319,7 @@ export default new Vuex.Store({
               {
                 heading: 'Bonds',
                 data: [
-                  ['With Credit Card', '$0'],
+                  ['With Credit Card', '$0 (imprint only)'],
                   ['No Credit Card', '$1000']
                 ]
               },
@@ -421,7 +421,7 @@ export default new Vuex.Store({
               {
                 heading: 'Bonds',
                 data: [
-                  ['With Credit Card', '$0'],
+                  ['With Credit Card', '$0 (imprint only)'],
                   ['No Credit Card', '$2000'],
                   ['4WD/AWD Area of Use & Sand Bond', '$1000']
                 ]
