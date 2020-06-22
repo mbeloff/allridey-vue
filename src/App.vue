@@ -2,7 +2,7 @@
   <div id="app">
     <script
       type="application/javascript"
-      src="https://kit.fontawesome.com/933093fbcd.js"
+      src="https://kit.fontawesome.com/dcf276a164.js"
       crossorigin="anonymous"
       sameSite="none"
     ></script>
@@ -37,8 +37,6 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
-
 
 .numero {
   top: 0;
