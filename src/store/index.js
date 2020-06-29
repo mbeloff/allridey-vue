@@ -423,7 +423,7 @@ export default new Vuex.Store({
                 data: [
                   ['With Credit Card', '$0 (imprint only)'],
                   ['No Credit Card', '$2000'],
-                  ['4WD/AWD Area of Use & Sand Bond', '$1000']
+                  ['4WD/AWD Area of Use & Sand Fee', '$1000']
                 ]
               },
               {
