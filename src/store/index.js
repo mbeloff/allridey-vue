@@ -51,7 +51,7 @@ export default new Vuex.Store({
                   ['Unlimited Kilometres', '$20/day'],
                   [
                     'Minimum Hire for Unlimited Km',
-                    'Zone 1: 2 Days / Zone 2: 5 Days'
+                    'Zone 1: 5 Days / Zone 2: 7 Days'
                   ]
                 ]
               },
@@ -186,7 +186,7 @@ export default new Vuex.Store({
                   ['Unlimited Kilometres', '$20/day'],
                   [
                     'Minimum Hire for Unlimited Km',
-                    'Zone 1: 2 Days / Zone 2: 5 Days'
+                    'Zone 1: 5 Days / Zone 2: 7 Days'
                   ]
                 ]
               },
@@ -309,7 +309,7 @@ export default new Vuex.Store({
                   ['Kilometre Allowance', '250km/day included'],
                   ['Extra Kilometres', '$0.20/km'],
                   ['Unlimited Kilometres', '$20/day'],
-                  ['Minimum Hire for Unlimited Km', '2 Days']
+                  ['Minimum Hire for Unlimited Km', '5 Days']
                 ]
               },
               {
@@ -405,13 +405,13 @@ export default new Vuex.Store({
               // },
               {
                 heading: 'Kilometres',
-                note:
-                  'please note: Due to the Diesel Road User Charge, the Premium 4WD with accom for 2-5 is always charged $0.20 per km for all kms to be used. No free kms included and no unlimited km package available',
+                // note:
+                //   'please note: Due to the Diesel Road User Charge, the Premium 4WD with accom for 2-5 is always charged $0.20 per km for all kms to be used. No free kms included and no unlimited km package available',
                 data: [
                   ['Kilometre Allowance', '250km/day included'],
                   ['Extra Kilometres', '$0.20/km'],
                   ['Unlimited Kilometres', '$20/day'],
-                  ['Minimum Hire for Unlimited Km', '2 Days']
+                  ['Minimum Hire for Unlimited Km', '5 Days']
                 ]
               },
               {
@@ -441,14 +441,21 @@ export default new Vuex.Store({
                 img:
                   'https://res.cloudinary.com/dg5ybbkbh/image/upload/v2/cv/nzarma-jeep.jpg'
               },
+              // {
+              //   name: 'Premium 4WD w/ accom for 2-5',
+              //   number: '2',
+              //   link:
+              //     'https://campervanvillage.netlify.com/Vehicles/New-Zealand/Grip-4WD/grip-2-5-Berth',
+              //   accom: '2-5',
+              //   img:
+              //     'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1577937932/cv/nz-2-5.jpg'
+              // },
               {
-                name: 'Premium 4WD w/ accom for 2-5',
-                number: '2',
-                link:
-                  'https://campervanvillage.netlify.com/Vehicles/New-Zealand/Grip-4WD/grip-2-5-Berth',
-                accom: '2-5',
-                img:
-                  'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1577937932/cv/nz-2-5.jpg'
+                name: '',
+                number: '',
+                link: '',
+                accom: '',
+                img: ''
               },
               {
                 name: '',
