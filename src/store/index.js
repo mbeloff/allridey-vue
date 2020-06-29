@@ -22,7 +22,7 @@ export default new Vuex.Store({
             section: [
               {
                 heading: 'Damage Cover',
-                data: [['Damage Cover', '$30 Manual / $35 Auto']]
+                data: [['Damage Cover', '$32 Manual / $37 Auto']]
               },
               // {
               //   heading: 'Accomodation: January through October',
@@ -285,7 +285,7 @@ export default new Vuex.Store({
             section: [
               {
                 heading: 'Damage Cover',
-                data: [['Damage Cover', '$30 Manual / $35 Auto']]
+                data: [['Damage Cover', '$32 Manual / $37 Auto']]
               },
               // {
               //   heading: 'Accomodation: January through October',
