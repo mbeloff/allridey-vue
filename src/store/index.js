@@ -67,7 +67,8 @@ export default new Vuex.Store({
               {
                 heading: 'Premium Location Fees',
                 data: [
-                  ['Shark Bay/Monkey Mia, Alice Springs, Byron Bay', '$85'],
+                  ['Shark Bay/Monkey Mia, Alice Springs', '$85'],
+                  ['Byron Bay', '$100'],
                   ['Hobart', '$150'],
                   ['Darwin, Exmouth, Broome', '$200']
                 ]
@@ -202,7 +203,8 @@ export default new Vuex.Store({
               {
                 heading: 'Premium Location Fees',
                 data: [
-                  ['Shark Bay, Byron Bay', '$85'],
+                  ['Shark Bay', '$85'],
+                  ['Byron Bay', '$100'],
                   ['Hobart, Alice Springs', '$150'],
                   ['Darwin', '$200'],
                   ['Broome, Exmouth', '$400']
