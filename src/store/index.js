@@ -318,6 +318,10 @@ export default new Vuex.Store({
                 data: [['', '$150']]
               },
               {
+                heading: 'Premium Location Fees',
+                data: [['Queenstown', '$100']]
+              },
+              {
                 heading: 'Bonds',
                 data: [
                   ['With Credit Card', '$0 (imprint only)'],
@@ -418,6 +422,10 @@ export default new Vuex.Store({
               {
                 heading: 'One Way Fees',
                 data: [['', '$150']]
+              },
+              {
+                heading: 'Premium Location Fees',
+                data: [['Queenstown', '$100']]
               },
               {
                 heading: 'Bonds',
