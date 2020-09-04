@@ -15,7 +15,7 @@ export default new Vuex.Store({
         policies:
           'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1/cv/docs/au_allridey_policies_0620.pdf',
         vra:
-          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1/cv/docs/au_rental_agreement_0220.pdf',
+          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1599189168/allridey/ALLRIDEY-VRA-02092020.pdff',
         type: [
           {
             name: '2WD',
