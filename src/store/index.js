@@ -11,11 +11,11 @@ export default new Vuex.Store({
         name: 'Australia',
         urlname: 'australia',
         map:
-          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1582169132/maps/blue-map-au-zones.svg',
+          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1/maps/blue-map-au-zones.svg',
         policies:
           'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1/cv/docs/au_allridey_policies_0620.pdf',
         vra:
-          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1599189168/allridey/ALLRIDEY-VRA-02092020.pdff',
+          'https://res.cloudinary.com/dg5ybbkbh/image/upload/v1/allridey/ALLRIDEY-VRA-02092020.pdf',
         type: [
           {
             name: '2WD',
@@ -69,7 +69,7 @@ export default new Vuex.Store({
                 data: [
                   ['Shark Bay/Monkey Mia, Alice Springs', '$85'],
                   ['Byron Bay', '$100'],
-                  ['Hobart', '$150'],
+                  // ['Hobart', '$150'],
                   ['Darwin, Exmouth, Broome', '$200']
                 ]
               },
@@ -205,7 +205,8 @@ export default new Vuex.Store({
                 data: [
                   ['Shark Bay', '$85'],
                   ['Byron Bay', '$100'],
-                  ['Hobart, Alice Springs', '$150'],
+                  // ['Hobart, Alice Springs', '$150'],
+                  ['Alice Springs', '$150'],
                   ['Darwin', '$200'],
                   ['Broome, Exmouth', '$400']
                 ]

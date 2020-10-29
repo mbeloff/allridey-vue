@@ -39,7 +39,7 @@
         </div>
         <img
           class="header-img img-fluid w-50"
-          src="https://res.cloudinary.com/dg5ybbkbh/image/upload/v1582171676/allridey/header2.png"
+          src="https://res.cloudinary.com/dg5ybbkbh/image/upload/v1582171676/allridey/header2.webp"
           alt=""
         />
       </div>
