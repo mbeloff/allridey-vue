@@ -15,9 +15,7 @@
             <span class="blue-text small">NZ: 0800 24 68 70</span>
           </b-nav-item>
         </b-navbar-nav>
-
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
             <b-nav-item
@@ -60,7 +58,7 @@ export default {
   position: relative;
   // padding: 30px 0;
   a {
-    // font-weight: bold;
+    font-weight: normal;
     color: #2c3e50;
     border-radius: 5px;
 
