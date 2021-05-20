@@ -11,8 +11,11 @@
         /></b-navbar-brand>
         <b-navbar-nav class="ml-auto order-0 order-md-2">
           <b-nav-item class="font-weight-bold text-right ml-auto">
-            <span class="blue-text">AU: 1800 24 68 69</span><br />
-            <span class="blue-text small">NZ: 0800 24 68 70</span>
+            <a href="tel:1800246869" class="blue-text">AU: 1800 24 68 69</a
+            ><br />
+            <a href="tel:0800246870" class="blue-text small"
+              >NZ: 0800 24 68 70</a
+            >
           </b-nav-item>
         </b-navbar-nav>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
